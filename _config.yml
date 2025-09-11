@@ -1,7 +1,7 @@
-title: mialyssa 
-subtitle: portfolio
+title: Mialyssa Gomez
+subtitle: Computer Engineering Undergraduate at UCSD
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my portfolio!
+  Portfolio website for Mialyssa Gomez
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -14,27 +14,34 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Gallery
+    #   url: /gallery
+    # - text: Shop
+    #   url : /shop
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: Test Name
-author_bio: Hi, my name is Test Name. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: UNITED STATES OF AMERICA RAHHH
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author_logo: chibi.png
+author: Mialyssa Gomez
+author_bio: Hi there! I am a Computer Engineering undergraduate student at UCSD. 
+            I love embedded systems, electronics, edge computing, and all things computer architecture.
+author_email: "mig012@ucsd.edu"
+author_location: San Diego, CA
+author_website_url: "https://mialyssagomez.com"
+typewrite-text: "This is the text that appears in the front"
+hero_cover_img: cover2.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
+            # - company_name: Google
+            #   company_logo: google.png
+            #   company_url: https://google.com
+            #   designation: Software Engineer
+            #   description: Worked on various Google Products
+            #   visibility: true
             - company_name: Google
               company_logo: google.png
               company_url: https://google.com
@@ -50,11 +57,11 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: ucsd.png
+                college_name: University of California, San Diego
+                college_url: https://www.ucsd.edu/
+                college_degree: ECE Computer Engineering
+                description: Bachelor of Science
                 visibility: true
 
 # Projects
@@ -71,11 +78,11 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+#twitter_username: xplor4r
+github_username:  mialyssa
+instagram_username: mialyssaisabel
 # facebook_username: johndoe
-# linkedin_username: johndoe
+linkedin_username: mialyssagomez
 # behance_username: johndoe
 # medium_username: johndoe
 # telegram_username: johndoe
@@ -88,18 +95,18 @@ instagram_username: xplor4r
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+  # wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+  # mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: mig012@ucsd.edu
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+    # olvy_organization: devlopr
+    # olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
